@@ -15,7 +15,6 @@ version = VERSION_NAME
 
 android {
     compileSdkVersion rootProject.compileSdkVersion
-    buildToolsVersion rootProject.buildToolsVersion
 
     defaultConfig {
         minSdkVersion rootProject.minSdkVersion
@@ -46,7 +45,7 @@ android {
 
     sourceSets {
         main {
-            java.srcDir 'com'
+            java.srcDir 'main'
             manifest.srcFile 'AndroidManifest.xml'
             res.srcDirs = ['res']
         }

@@ -33,10 +33,10 @@ allprojects {
 ext {
     minSdkVersion = 14
     targetSdkVersion = 25
-    compileSdkVersion = 26
-    buildToolsVersion = '26.0.2'
-    sourceCompatibilityVersion = JavaVersion.VERSION_1_7
-    targetCompatibilityVersion = JavaVersion.VERSION_1_7
+    compileSdkVersion = 28
+    buildToolsVersion = '28.0.0'
+    sourceCompatibilityVersion = JavaVersion.VERSION_1_8
+    targetCompatibilityVersion = JavaVersion.VERSION_1_8
 }
 
 // If you have an idea on how to avoid this, please get in touch or
